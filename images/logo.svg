@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <rect width="200" height="60" rx="8" fill="#081121" />
+  <text x="16" y="38" font-family="Segoe UI, Roboto, Arial" font-size="20" fill="#06b6d4">Cine</text>
+  <text x="70" y="38" font-family="Segoe UI, Roboto, Arial" font-size="20" fill="#ff4d6d">Verse</text>
+</svg>

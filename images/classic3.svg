@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#081121"/>
+  <rect x="40" y="40" width="1120" height="620" rx="12" fill="#0f1724" opacity="0.9"/>
+  <text x="60" y="140" font-family="Segoe UI, Roboto, Arial" font-size="40" fill="#06b6d4">Silver Screen</text>
+  <text x="60" y="190" font-family="Segoe UI, Roboto, Arial" font-size="18" fill="#94a3b8">Curated selection of classic cinema</text>
+</svg>

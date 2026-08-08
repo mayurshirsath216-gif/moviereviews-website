@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineVerse | Services</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.service-card{
+    background:#1f2937;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 0 15px rgba(255,77,109,.3);
+}
+
+.service-card:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 0 25px rgba(0,229,255,.5);
+}
+
+.service-icon{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.service-card h3{
+    color:#0aefef;
+    margin-bottom:10px;
+}
+
+.service-card p{
+    color:#ddd;
+    line-height:1.6;
+}
+
+.premium-banner{
+    margin-top:50px;
+    background:linear-gradient(90deg,#ff4d6d,#00e5ff);
+    padding:40px;
+    text-align:center;
+    border-radius:20px;
+}
+
+.premium-banner h2{
+    margin-bottom:15px;
+    color:white;
+}
+
+.premium-banner p{
+    margin-bottom:20px;
+}
+
+.subscribe-btn{
+    display:inline-block;
+    background:white;
+    color:black;
+    text-decoration:none;
+    padding:12px 30px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">CineVerse</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="trailers.html">Trailers</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <h1 class="page-title"><b>Our Services</b></h1>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <div class="service-icon">🎬</div>
+            <h3>Movie Streaming</h3>
+            <p>Watch blockbuster movies in HD and 4K quality from our premium collection.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🍿</div>
+            <h3>Online Booking</h3>
+            <p>Reserve cinema tickets instantly with real-time seat selection.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📺</div>
+            <h3>Exclusive Trailers</h3>
+            <p>Get early access to upcoming movie trailers and teaser releases.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">⭐</div>
+            <h3>Movie Reviews</h3>
+            <p>Read expert reviews and ratings before watching your favorite films.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🎟️</div>
+            <h3>Membership Plans</h3>
+            <p>Enjoy premium content, ad-free viewing, and special rewards.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>Mobile Access</h3>
+            <p>Stream and manage your account anytime from any device.</p>
+        </div>
+
+    </div>
+
+    <div class="premium-banner">
+        <h2>Upgrade to CineVerse Premium</h2>
+        <p>Unlimited movies, exclusive content, and priority access to new releases.</p>
+        <a href="#" class="subscribe-btn">Subscribe Now</a>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 CineVerse | All Rights Reserved
+</footer>
+
+</body>
+</html>
